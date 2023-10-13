@@ -1,0 +1,19 @@
+Meningkatkan performa windows
+
+- adjust for best performance
+  setting - system - about - advanced system settings
+  dibagian performance klik setting
+
+
+- setting power mode
+  klik kanan dibagian ikon baterai - klik power and sleep settings - dibagian power mode, pilih best performance
+
+- edit registry
+  press the Windows key + R to open the Run dialog box. Next, type "regedit" in the search box and press Enter
+
+- mempercepat waktu booting
+  bisa dilakukan dengan mencegah beberapa aplikasi yang start otomatis pada saat menyalakan laptop,
+  cara nya di task manager, start up, disable aplikasi yang enable
+
+- downgrade windows
+- ganti ke ssd (migrasi)
