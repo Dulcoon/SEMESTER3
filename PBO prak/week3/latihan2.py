@@ -1,6 +1,11 @@
 class matkul:
-    def __init__(self, matkul):
-        self.matkul = matkul
+    def __init__(self, data_matkul):
+        self.data_matkul = data_matkul
+
+    def tampilkan_matkul(self):
+        for matkul in self.data_matkul:
+            print(matkul)
+
 
 class kucing:
     def __init__(self, warna, usia) :
@@ -12,17 +17,16 @@ class mahasiswa:
         self.nama = nama
         self.jurusan = jurusan
         self.kucingMhs = kucingMhs
-        self.dataMatkul = dataMatkul
+        self.dataMatkul = matkul(dataMatkul)
 
     def perkenalan(self):
         print("Hallo, perkenalkan nama saya {}, saya mhs jurusan {}".format(self.nama, self.jurusan))
         print("Saya memiliki kucing berwarna {}, dengan usia {} bulan".format(self.kucingMhs.warna, self.kucingMhs.usia ))
-        print("Saya mengambil beberapa mata kuliah, diantara nya : {}".format(self.dataMatkul))
+        print("Nilai saya antara lain : ")
+        self.dataMatkul.tampilkan_matkul()
 
 
-data = 
-for i in data:
-    print(i)
+data = ["PBO", "Pemrograman WEB", "Sistem Digital", "Basis data"]
 
 mhs1 = mahasiswa(
     "valen",
@@ -30,7 +34,7 @@ mhs1 = mahasiswa(
     kucing(warna="putih",
            usia="8"
            ),
-    matkul()
+    data
 )
 
 mhs1.perkenalan()
