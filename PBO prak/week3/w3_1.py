@@ -4,5 +4,5 @@ class Mobil:
         self.warna = warna
         self.tahun = tahun
     def kelilingKota(self):
-        print("Mobil dengan merk {} berwarna {} tahun {}, terpantau sedang berkelling kota".format(self.merk, self.warna, self.tahun))
+        print("Merk mobil {}\n warna {}\n tahun {}".format(self.merk, self.warna, self.tahun))
 
